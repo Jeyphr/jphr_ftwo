@@ -1,0 +1,27 @@
+nzp_mbox2
+
+allow:
+    kar98k
+    kar98k_scoped
+    ptrs-41
+    gewehr
+    m1_garand
+    m1a1_carbine
+    stg-44
+    thompson
+    mp40
+    ppsh
+    type_100
+    mp5k
+    double_barreled_shotgun
+    sawed_off_shotgun
+    trenchgun
+    bar
+    fg42
+    mg42
+    browning
+    m1911
+    357_magnum
+    panzerschreck
+    ray_gun
+    ray_gun_2
