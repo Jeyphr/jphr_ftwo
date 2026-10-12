@@ -1,0 +1,156 @@
+{
+    "gameplay": 
+    {
+        "global":
+        {
+            "all_items_cost_multiplier": 1
+        },
+
+        "perksacola": 
+        {
+            "perk_purchase_limit": 4,
+            "perk_deadshot_headshot_damage_multiplier": 2
+        },
+
+        "packapunch":
+        {
+            "packapunch_supports_upgrade_tiers": false,
+            "packapunch_upgrades_instantly": false
+        },
+
+        "powerups":
+        {
+            "max_powerups_per_round": 4,
+            "powerup_spawn_frequency_multiplier": 1,
+
+            "powerup_max_ammo":
+            {
+                "enabled": false
+            },
+
+            "powerup_instakill":
+            {
+                "enabled": true,
+                "chance_to_allow_in_rotation": 1,
+                "disabled_before_round": 0,
+                "duration": 30,
+                "toast": "Insta-Kill!",
+                "show_toast": false,
+                "model": "models/pu/instakill!.mdl",
+                "voiceover": "sounds/pu/insta_kill.wav"
+            },
+
+            "powerup_double_points":
+            {
+                "enabled": true,
+                "chance_to_allow_in_rotation": 1,
+                "disabled_before_round": 0,
+                "duration": 30,
+                "score_multiplier": 2,
+                "toast": "Double Points!",
+                "show_toast": true,
+                "model": "models/pu/x2!.mdl",
+                "voiceover": "sounds/pu/double_points.wav"
+            },  
+
+            "powerup_carpenter":
+            {
+                "enabled": false
+            },
+
+            "powerup_nuke":
+            {
+                "enabled": true,
+                "chance_to_allow_in_rotation": 1,
+                "disabled_before_round": 10,
+                "score_awarded": 400,
+                "toast": "Ka-Boom!",
+                "show_toast": true,
+                "model": "models/pu/nuke!.mdl",
+                "voiceover": "sounds/pu/kaboom.wav",
+                "explosion_sfx": "sounds/pu/nuke.wav"
+            },
+
+            "powerup_bonus_points":
+            {
+                "enabled": true,
+                "chance_to_allow_in_rotation": 1,
+                "disabled_before_round": 0,
+                "score_awarded": 500,
+                "toast": "Blood Money!",
+                "show_toast": true,
+                "model": "models/pu/points!.mdl",
+                "voiceover": ""
+            },
+
+            "powerup_weapon_upgrade":
+            {
+                "enabled": true,
+                "chance_to_allow_in_rotation": 0.25,
+                "disabled_before_round": 10,
+                "awarded_score_if_no_upgrade_received": 5000,
+                "toast": "Get Packed!",
+                "show_toast": true,
+                "model": "models/pu/pack!.mdl",
+                "voiceover": ""
+            }
+        }
+    },
+
+    "interface":
+    {
+        "perksacola":
+        {
+            "position_style": "bo3",
+
+            "graphics":
+            {
+                "quickrevive":  "gfx/hud/jphr/clean/perks/revive",
+                "juggernog":    "gfx/hud/jphr/clean/perks/jug",
+                "speedcola":    "gfx/hud/jphr/clean/perks/speed",
+                "doubletap":    "gfx/hud/jphr/clean/perks/double",
+                "doubletap_2":  "gfx/hud/jphr/clean/perks/double2",
+                "staminup":     "gfx/hud/jphr/clean/perks/stamin",
+                "flopper":      "gfx/hud/jphr/clean/perks/flopper",
+                "deadshot":     "gfx/hud/jphr/clean/perks/dead",
+                "mulekick":     "gfx/hud/jphr/clean/perks/mule"
+            }
+        },
+
+        "rounds":
+        {
+            "position_style": "bottom_left",
+            "skip_intro": true,
+            "use_tally_marks_until_round": 0,
+            "color": [255, 255, 255],
+
+            "graphics":
+            {
+                "numeric":
+                [
+                    "gfx/hud/jphr/clean/rounds/r_num0",
+                    "gfx/hud/jphr/clean/rounds/r_num1",
+                    "gfx/hud/jphr/clean/rounds/r_num2",
+                    "gfx/hud/jphr/clean/rounds/r_num3",
+                    "gfx/hud/jphr/clean/rounds/r_num4",
+                    "gfx/hud/jphr/clean/rounds/r_num5",
+                    "gfx/hud/jphr/clean/rounds/r_num6",
+                    "gfx/hud/jphr/clean/rounds/r_num7",
+                    "gfx/hud/jphr/clean/rounds/r_num8",
+                    "gfx/hud/jphr/clean/rounds/r_num9"
+                ]
+            }
+        },
+
+        "score":
+        {
+            "position_style": "right",
+
+            "graphics":
+            {
+                "score_background_full": "gfx/hud/jphr/clean/score/moneybackRed",
+                "score_background_condensed": "gfx/hud/jphr/clean/score/moneyback_condensedRed"
+            }
+        }
+    }
+}
